@@ -21,6 +21,14 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "TypeScript" %}
+                        <li><a style="font-size:17px" href="/categories/TypeScript" class="">TypeScript({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "Vue" %}
                         <li><a style="font-size:17px" href="/categories/Vue" class="">Vue({{category[1].size}})</a></li>
                     {% endif %}
@@ -29,13 +37,7 @@
       </li>
       <li>
         <span class="nav__sub-title" style="font-size:20px">FE</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "TS" %}
-                        <li><a style="font-size:17px" href="/categories/ts" class="">TS({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
+
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Vue" %}
