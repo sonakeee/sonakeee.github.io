@@ -15,15 +15,15 @@
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "punsoo's Blog"
+locale                   : "ko-Kr"
+title                    : "sonak's Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "sooncheol sohn"
-description              : "개발 지식 저장소"
-url                      : "https://punsoo.github.io"
+name                     : "Sonak"
+description              : "개발 기록"
+url                      : "https://sonakeee.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "punsoo/comments" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "sonakeee/comments" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -94,11 +94,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "sooncheol sohn"
+  name             : "Sonak"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "노력하고 성장하는 개발자!"
-  location         : "Seoul, Korea"
-  email            : "sooncheol.sohn@gmail.com"
+  bio              : "newbieeee"
+  location         : "Korea"
+  email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
