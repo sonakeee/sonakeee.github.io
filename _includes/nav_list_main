@@ -14,8 +14,8 @@
         <span class="nav__sub-title" style="font-size:20px">JAVA</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Effective Java" %}
-                        <li><a style="font-size:17px" href="/categories/effective-java" class="">Effective Java({{category[1].size}})</a></li>
+                    {% if category[0] == "TypeScript" %}
+                        <li><a style="font-size:17px" href="/categories/TypeScript" class="">TypeScript({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
