@@ -66,8 +66,8 @@
               <span class="nav__sub-title" style="font-size:20px">SE</span>
                   <ul>
                       {% for category in site.categories %}
-                          {% if category[0] == "nginx" %}
-                              <li><a style="font-size:17px" href="/categories/nginx" class="">nginx({{category[1].size}})</a></li>
+                          {% if category[0] == "Nginx" %}
+                              <li><a style="font-size:17px" href="/categories/Nginx" class="">Nginx({{category[1].size}})</a></li>
                           {% endif %}
                       {% endfor %}
                   </ul>
