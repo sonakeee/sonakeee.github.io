@@ -28,8 +28,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "TypeScript" %}
-                        <li><a style="font-size:17px" href="/categories/TypeScript" class="">TypeScript({{category[1].size}})</a></li>
+                    {% if category[0] == "Vue" %}
+                        <li><a style="font-size:17px" href="/categories/Vue" class="">Vue({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
