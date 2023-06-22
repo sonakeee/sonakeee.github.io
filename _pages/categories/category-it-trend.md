@@ -1,0 +1,11 @@
+---
+title: "IT Trend"
+layout: archive
+permalink: categories/it-trend
+author_profile: true
+sidebar_main: true
+---
+
+
+{% assign posts = site.categories['IT Trend'] %}
+{% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
