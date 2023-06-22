@@ -14,9 +14,10 @@ $indent-var: 1.3em !default;
 
 /* system typefaces */
 $serif: Georgia, Times, serif !default;
-$sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+$sans-serif: "Iropke Batang", "Nanum Gothic", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+$cute: "Cafe24Oneprettynight";
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
@@ -118,10 +119,6 @@ $masthead-link-color: $primary-color !default;
 $masthead-link-color-hover: mix(#000, $primary-color, 25%) !default;
 $navicon-link-color-hover: mix(#fff, $primary-color, 75%) !default;
 
-/* notices */
-$notice-background-mix: 80% !default;
-$code-notice-background-mix: 90% !default;
-
 /* syntax highlighting (base16) */
 $base00: #263238 !default;
 $base01: #2e3c43 !default;
@@ -154,10 +151,13 @@ $max-width: $x-large !default;
 /*
    Grid
    ========================================================================== */
-
-$right-sidebar-width-narrow: 100px !default;
-$right-sidebar-width: 200px !default;
+$right-sidebar-width-narrow: 200px !default;
+$right-sidebar-width: 250px !default;
 $right-sidebar-width-wide: 250px !default;
+
+// $right-sidebar-width-narrow: 200px !default;
+// $right-sidebar-width: 300px !default;
+// $right-sidebar-width-wide: 400px !default;
 
 /*
    Other

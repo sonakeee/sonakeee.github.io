@@ -51,13 +51,13 @@
   h5,
   h6 {
     margin-bottom: 0;
-    font-family: $sans-serif-narrow;
+    font-family: "Cafe24Oneprettynight";
   }
 
   p,
   li {
-    font-family: $sans-serif;
-    font-size: $type-size-6;
+    font-family: "Cafe24Oneprettynight";
+    font-size: $type-size-5;
     line-height: 1.5;
   }
 
@@ -89,13 +89,6 @@
       position: sticky;
       top: 2em;
       float: right;
-
-      .toc {
-        .toc__menu {
-          overflow-y: auto;
-          max-height: calc(100vh - 7em);
-        }
-      }
     }
   }
 
@@ -173,7 +166,7 @@
   }
 }
 .sidebar .author__name {
-  font-family: $sans-serif;
+  font-family: "Cafe24Oneprettynight";
   font-size: $type-size-5;
 }
 
@@ -190,7 +183,7 @@
   position: relative;
   display: table-cell;
   vertical-align: middle;
-  font-family: $sans-serif;
+  font-family: "Cafe24Oneprettynight";
   z-index: 20;
   cursor: pointer;
 
@@ -350,4 +343,3 @@
     margin-right: initial;
   }
 }
-

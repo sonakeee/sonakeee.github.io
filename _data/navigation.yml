@@ -1,10 +1,11 @@
 # main links
 main:
-  #- title: "Home"
-  #  url: "/"
-  - title: "Introduce"
-    url: /about/
-  - title: "Category"
-    url: "/categories/"
-  - title: "Tags"
-    url: /tags/
+
+   - title: "Categories"
+     url: /categories/
+   - title: "Yearly"
+     url: /year-archive/
+   - title: "Monthly"
+     url: /month-archive/
+   - title: tag
+     url: /tags/
