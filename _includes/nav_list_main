@@ -26,6 +26,13 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "effective-java" %}
+                        <li><a style="font-size:17px" href="/categories/effective-java" class="">effective-java({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
 
             <ul>
                 {% for category in site.categories %}
