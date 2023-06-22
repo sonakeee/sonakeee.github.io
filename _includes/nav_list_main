@@ -36,16 +36,6 @@
             </ul>
       </li>
       <li>
-        <span class="nav__sub-title" style="font-size:20px">FE</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Vue" %}
-                        <li><a style="font-size:17px" href="/categories/Vue" class="">Vue({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-      </li>
-      <li>
         <span class="nav__sub-title" style="font-size:20px">알고리즘/코딩 테스트</span>
             <ul>
                 {% for category in site.categories %}
@@ -76,52 +66,6 @@
         <span class="nav__sub-title" style="font-size:20px">기타</span>
         <ul>
         </ul>
-      </li>
-
- <li>
-        <span class="nav__sub-title" style="font-size:20px">JAVA</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Effective Java" %}
-                        <li><a style="font-size:17px" href="/categories/effective-java" class="">Effective Java({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-          	<ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Spring" %}
-                        <li><a style="font-size:17px" href="/categories/spring" class="">Spring({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-
-      </li>
-      <li>
-        <span class="nav__sub-title" style="font-size:20px">CS</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Network" %}
-                        <li><a style="font-size:17px" href="/categories/network" class="">Network({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-      </li>
-      <li>
-        <span class="nav__sub-title" style="font-size:20px">클린 코드</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Object Oriented" %}
-                        <li><a style="font-size:17px" href="/categories/object-oriented" class="">객체 지향({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "TDD & Clean Code" %}
-                        <li><a style="font-size:17px" href="/categories/tdd & clean-code" class="">TDD & 클린코드({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
       </li>
   </ul>
 </nav>
