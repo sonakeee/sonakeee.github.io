@@ -45,7 +45,7 @@
             </ul>
       </li>
       <li>
-        <span class="nav__sub-title" style="font-size:20px">Coding-Test</span>
+        <span class="nav__sub-title" style="font-size:20px">Coding Test</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Coding Test" %}
