@@ -15,14 +15,14 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "JS" %}
-                        <li><a style="font-size:17px" href="/categories/JS" class="">JS({{category[1].size}})</a></li>
+                        <li><a style="font-size:17px" href="/categories/js" class="">JS({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "TS" %}
-                        <li><a style="font-size:17px" href="/categories/TS" class="">TS({{category[1].size}})</a></li>
+                        <li><a style="font-size:17px" href="/categories/ts" class="">TS({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

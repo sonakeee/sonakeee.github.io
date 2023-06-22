@@ -1,11 +1,11 @@
 ---
-title: "JS"
+title: "TS"
 layout: archive
-permalink: categories/JS
+permalink: categories/ts
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.categories['JS'] %}
+{% assign posts = site.categories['TS'] %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
