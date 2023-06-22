@@ -37,7 +37,6 @@
       </li>
       <li>
         <span class="nav__sub-title" style="font-size:20px">FE</span>
-
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Vue" %}
