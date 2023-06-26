@@ -9,15 +9,15 @@ defaults:
       comments: true
       related: true
 
-title: "Nginx Test"
-excerpt: "Nginx Test"
+title: "쿠키, 로컬스토리지, 세션스토리지에 대해서"
+excerpt: "쿠키, 로컬스토리지, 세션스토리지에 대해서"
 toc: true
 toc_sticky: true
 toc_label: "목차"
 categories:
-  - Nginx
+  - Network
 tags:
-  - [Nginx]
+  - [Network]
 date: 2023-06-21
 last_modified_at: 2023-06-21
 ---
