@@ -41,7 +41,7 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : "lcy-dark" # "github-light" (default), "github-dark"
+    theme                : "lcy Dark" # "github-light" (default), "github-dark"
     issue_term           : "pathname" # "pathname" (default)
   staticman:
     branch               : # "master"
