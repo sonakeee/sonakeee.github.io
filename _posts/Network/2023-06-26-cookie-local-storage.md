@@ -4,10 +4,10 @@ defaults:
       path: ""
       type: posts
   values:
-      layout: single
-      author_profile: true
-      comments: true
-      related: true
+    layout: single
+    author_profile: true
+    comments: true
+    related: true
 
 title: "쿠키, 로컬스토리지, 세션스토리지에 대해서"
 excerpt: "쿠키, 로컬스토리지, 세션스토리지에 대해서"
